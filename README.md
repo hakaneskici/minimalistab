@@ -36,7 +36,7 @@ Go to `...` menu > `Extensions` > `Manage Extensions` or [chrome://extensions/](
 
 1. Select `Load unpacked` near top left.
 
-<img src="img/ext-load-unpacked.png.png" width=660>
+<img src="img/ext-load-unpacked.png" width=660>
 
 1. Then, select the directory you cloned this repository to.
 
