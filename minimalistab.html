@@ -1,0 +1,89 @@
+<!doctype html>
+<!-- 
+      --==:: minimalistab v1.0 ::==--
+Minimalist WYSIWYG notes for Chrome New Tab
+(c) 2025 Hakan Eskici, All rights reserved.
+https://github.com/hakaneskici/minimalistab 
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+  <title>minimalistab</title>
+  <style>
+    html {
+      color-scheme: light dark;
+      height: 100%;
+    }
+
+    body#minimalistab {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    #toolbar {
+      display: none;
+      float: right;
+      opacity: 0;
+      transition: 500ms;
+      z-index: 2;
+      padding: 20px;
+    }
+
+    #toolbar:hover {
+      opacity: 1;
+    }
+
+    #ed {
+      box-sizing: border-box;
+      line-height: 1.5;
+      height: 100%;
+      outline: none;
+      padding: 20px;
+    }
+
+    .nojs {
+      position: absolute;
+      bottom: 0;
+      z-index: 2;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body id="minimalistab">
+  <div id="toolbar">
+    <button id="bold" title="Bold (Cmd+B)">
+      <b>B</b></button>
+
+    <button id="italic" title="Italic (Cmd+I)">
+      <i>I</i></button>
+
+    <button id="underline" title="Underline (Cmd+U)">
+      <u>U</u></button>
+
+    <button id="download" title="Download">
+      <span>⤓</span></button>
+
+    <button id="help" title="Help for v1.0">
+      <span>?</span></button>
+  </div>
+  <div id="ed" contenteditable="true"></div>
+  <script src="minimalistab.js"></script>
+  <noscript class="nojs">
+    enable javascript to save and download
+  </noscript>
+
+</body>
+
+</html>

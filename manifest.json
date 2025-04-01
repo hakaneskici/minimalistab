@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Minimalistab",
+  "version": "1.0",
+  "description": "Minimalist New Tab extension for Chrome",
+  "chrome_url_overrides": {
+    "newtab": "minimalistab.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "128": "icons/128.png",
+    "48": "icons/48.png",
+    "16": "icons/16.png"
+  }
+}
