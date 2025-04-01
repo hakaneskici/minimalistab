@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Minimalistab",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Minimalist New Tab extension for Chrome",
   "chrome_url_overrides": {
     "newtab": "minimalistab.html"

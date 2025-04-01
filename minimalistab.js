@@ -33,7 +33,7 @@ document.getElementById("download")
 
 document.getElementById("help")
   .addEventListener("click", () => {
-    window.open(`${helpUrl}?v=1.0`, '_blank')
+    window.open(`${home}?v=1.1`, '_blank')
       .focus()
   });
 
