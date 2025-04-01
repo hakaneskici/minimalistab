@@ -32,11 +32,11 @@ Go to `...` menu > `Extensions` > `Manage Extensions` or [chrome://extensions/](
 
 1. Enable `Developer Mode` on top right.
 
-![developer mode](img/ext-developer-mode.png)
+<img src="img/ext-developer-mode.png" width=660>
 
 1. Select `Load unpacked` near top left.
 
-![](img/ext-load-unpacked.png)
+<img src="img/ext-load-unpacked.png.png" width=660>
 
 1. Then, select the directory you cloned this repository to.
 
