@@ -4,6 +4,8 @@
 
 `minimalistab` is a minimalist New Tab extension for Chrome that replaces `chrome://newtab` view with a blank WYSIWYG editor to take notes.
 
+Live DEMO -https://hakaneskici.github.io/minimalistab/minimalistab.html
+
 ![screenshot](img/demo.png)
 
 - Take notes with <b><u><i>formatting</i></u></b>
