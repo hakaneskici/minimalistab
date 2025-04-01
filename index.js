@@ -5,15 +5,15 @@ Minimalist WYSIWYG notes for Chrome New Tab
 https://github.com/hakaneskici/minimalistab 
 */
 
-const placeholderText = "Default placeholder";
+const placeholderText = "Type here...";
 const localStorageKey = "minimalistab.content";
 const home = "https://github.com/hakaneskici/minimalistab";
 const editor = document.getElementById("ed");
 
 // load
-editor.innerHTML = "" + localStorage
-  .getItem(localStorageKey)
-  || placeholderText;
+const content = localStorage
+  .getItem(localStorageKey);
+editor.innerHTML = content || placeholderText;
 
 // key binding for auto-save
 editor.addEventListener("keyup", save);
@@ -47,7 +47,7 @@ function format() {
 
 function save() {
   localStorage.setItem(localStorageKey,
-    editor.innerHTML);
+    "" + editor.innerHTML);
 }
 
 function download() {
