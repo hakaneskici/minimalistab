@@ -6,7 +6,7 @@
 
 Live DEMO -https://hakaneskici.github.io/minimalistab/minimalistab.html
 
-![screenshot](img/demo.png)
+<img src="img/demo.png" width=500>
 
 - Take notes with <b><u><i>formatting</i></u></b>
 - Use CMD/CTRL + {B, I, U} or <b>toolbar</b>
