@@ -1,5 +1,5 @@
 /*
-      --==:: minimalistab v1.0 ::==--
+      --==:: minimalistab v1.1 ::==--
 Minimalist WYSIWYG notes for Chrome New Tab
 (c) 2025 Hakan Eskici, All rights reserved.
 https://github.com/hakaneskici/minimalistab 
@@ -33,7 +33,7 @@ document.getElementById("download")
 
 document.getElementById("help")
   .addEventListener("click", () => {
-    window.open(`${home}?v=1.1`, '_blank')
+    window.open(`${home}/blob/main/help/v1.1.md`, '_blank')
       .focus()
   });
 
